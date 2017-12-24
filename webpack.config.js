@@ -6,11 +6,11 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     // the entry file for the bundle
-    entry: path.join(__dirname, '/client/src/js/index.js'),
+    entry: path.join(__dirname, './client/src/js/index.js'),
 
     // the bundle file we will get in the result
     output: {
-        path: path.join(__dirname, '/client/dist/js'),
+        path: path.join(__dirname, './client/dist/js'),
         filename: 'index.js'
     },
     devServer: {
