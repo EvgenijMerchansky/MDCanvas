@@ -1,4 +1,6 @@
 .gitignore
 .idea/
 node_modules/
-.client/dist
+.client/dist/js
+.client/dist/index.html
+npm-debug.log

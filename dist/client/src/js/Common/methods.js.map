@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../client/src/js/Common/methods.js"],"names":["Methods"],"mappings":";;;;IAAMA,O,GACF,mBAAc;AAAA;AAEb,C","file":"methods.js","sourcesContent":["class Methods {\n    constructor() {\n\n    }\n}"]}
