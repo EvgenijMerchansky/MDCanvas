@@ -1,13 +1,13 @@
 import App from './Common/app';
-import LineWidthController from './Common/lineWidthController';
+import LineWidthController from './Common/Controllers/lineWidthController';
 
 /**
  * @ROOT_application_class
  */
 class Root {
     constructor() {
-        new App();
-        new LineWidthController();
+        const app = new App();
+        const lineWidthControllernew = new LineWidthController();
     }
 }
 
